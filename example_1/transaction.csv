@@ -1,0 +1,11 @@
+account,transaction
+Alice,-100
+Bob,-150
+Cindy,-200
+Alice,200
+Cindy,250
+Alice,-300
+Bob,-200
+Cindy,-200
+Alice,250
+Bob,450
