@@ -30,7 +30,7 @@ class Settler:
 
         elif transaction < 0:
             # when Bob received money in real life, his account loses credit
-            logger.info(f"[transaction] {account} receive ${-transaction:,g}")
+            logger.info(f"[transaction] {account} received ${-transaction:,g}")
 
         index = self.account_to_index.get(account, None)
         if index is None:
